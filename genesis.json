@@ -1,0 +1,21 @@
+{
+  "nonce": "0x00006d6f7264656e",
+  "difficulty": "0x20000",
+  "mixhash": "0x00000000000000000000000000000000000000647572616c65787365646c6578",
+  "coinbase": "0xde1e758511a7c67e7db93d1c23c1060a21db4615",
+  "timestamp": "0x00",
+  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "extraData": "0x",
+  "gasLimit": "0x2FEFD8",
+  "alloc": {
+    "de1e758511a7c67e7db93d1c23c1060a21db4615": {
+      "balance": "1000"
+    },
+    "27dc8de9e9a1cb673543bd5fce89e83af09e228f": {
+      "balance": "1100"
+    },
+    "d64a66c28a6ae5150af5e7c34696502793b91ae7": {
+      "balance": "900"
+    }
+  }
+}

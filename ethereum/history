@@ -1,0 +1,91 @@
+
+eth.accounts
+eth.accounts[0]
+eth.accounts[0].balance
+eth.coinbase
+function checkAllBalances() { 
+var i =0; 
+eth.accounts.forEach( function(e){
+    console.log("  eth.accounts["+i+"]: " +  e + " \tbalance: " + web3.fromWei(eth.getBalance(e), "ether") + " ether"); 
+i++; 
+})
+};
+checkAllBalances()
+function checkAllBalances() { 
+var i =0; 
+eth.accounts.forEach( function(e){
+    console.log("  eth.accounts["+i+"]: " +  e + " \tbalance: " + web3.fromWei(eth.getBalance(e), "ether") + " ether"); 
+i++; 
+})
+};
+checkAllBalances()
+function checkAllBalances() { 
+var i =0; 
+eth.accounts.forEach( function(e){
+    console.log("  eth.accounts["+i+"]: " +  e + " \tbalance: " + web3.fromWei(eth.getBalance(e), "ether") + " ether"); 
+i++; 
+})
+};
+checkAllBalances()
+function checkAllBalances() { 
+var i =0; 
+eth.accounts.forEach( function(e){
+    console.log("  eth.accounts["+i+"]: " +  e + " \tbalance: " + web3.fromWei(eth.getBalance(e), "ether") + " ether"); 
+i++; 
+})
+};
+checkAllBalances()
+function checkAllBalances() { 
+var i =0; 
+eth.accounts.forEach( function(e){
+    console.log("  eth.accounts["+i+"]: " +  e + " \tbalance: " + web3.fromWei(eth.getBalance(e), "ether") + " ether"); 
+i++; 
+})
+};
+checkAllBalances()
+function checkAllBalances() { 
+var i =0; 
+eth.accounts.forEach( function(e){
+    console.log("  eth.accounts["+i+"]: " +  e + " \tbalance: " + web3.fromWei(eth.getBalance(e), "ether") + " ether"); 
+i++; 
+})
+};
+checkAllBalances()
+function checkAllBalances() { 
+var i =0; 
+eth.accounts.forEach( function(e){
+    console.log("  eth.accounts["+i+"]: " +  e + " \tbalance: " + web3.fromWei(eth.getBalance(e), "ether") + " ether"); 
+i++; 
+})
+};
+checkAllBalances()
+function checkAllBalances() { 
+var i =0; 
+eth.accounts.forEach( function(e){
+    console.log("  eth.accounts["+i+"]: " +  e + " \tbalance: " + web3.fromWei(eth.getBalance(e), "ether") + " ether"); 
+i++; 
+})
+};
+checkAllBalances()
+function checkAllBalances() { 
+var i =0; 
+eth.accounts.forEach( function(e){
+    console.log("  eth.accounts["+i+"]: " +  e + " \tbalance: " + web3.fromWei(eth.getBalance(e), "ether") + " ether"); 
+i++; 
+})
+};
+checkAllBalances()
+eth.getBalance('0xd64a66c28a6ae5150af5e7c34696502793b91ae7')
+eth.getBalance('0xde1e758511a7c67e7db93d1c23c1060a21db4615')
+eth.getBalance('0xd64a66c28a6ae5150af5e7c34696502793b91ae7')
+eth.getBalance('0x27dc8de9e9a1cb673543bd5fce89e83af09e228f')
+eth.getBalance('0xde1e758511a7c67e7db93d1c23c1060a21db4615')
+eth.getBalance('0xd64a66c28a6ae5150af5e7c34696502793b91ae7')
+eth.getBalance('0xde1e758511a7c67e7db93d1c23c1060a21db4615')
+eth.getBalance('0xd64a66c28a6ae5150af5e7c34696502793b91ae7')
+eth.getBalance('0x27dc8de9e9a1cb673543bd5fce89e83af09e228f')
+eth.coinbase
+eth.getBalance(eth.coinbase)
+eth.coinbase
+eth.getBalance
+eth.getBalance(eth.coinbase)

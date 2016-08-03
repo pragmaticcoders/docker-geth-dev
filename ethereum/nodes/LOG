@@ -1,0 +1,20 @@
+=============== Aug 3, 2016 (UTC) ===============
+11:36:48.666765 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:36:48.666994 db@open opening
+11:36:48.668860 version@stat F·[] S·0B[] Sc·[]
+11:36:48.716460 db@janitor F·2 G·0
+11:36:48.716486 db@open done T·49.480671ms
+11:37:07.431976 db@close closing
+11:37:07.432043 db@close done T·64.69µs
+=============== Aug 3, 2016 (UTC) ===============
+11:37:25.942658 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:37:25.942823 version@stat F·[] S·0B[] Sc·[]
+11:37:25.942836 db@open opening
+11:37:25.942881 journal@recovery F·1
+11:37:25.944509 journal@recovery recovering @1
+11:37:26.002280 memdb@flush created L0@2 N·1188 S·37KiB "n:\x00..ing,v659":"version,v1"
+11:37:26.003980 version@stat F·[1] S·37KiB[37KiB] Sc·[0.25]
+11:37:26.004349 db@janitor F·3 G·0
+11:37:26.004374 db@open done T·61.530538ms
+11:37:47.932190 db@close closing
+11:37:47.932508 db@close done T·312.829µs
