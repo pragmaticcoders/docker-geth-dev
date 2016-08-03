@@ -24,8 +24,8 @@ occured on the way.
 
      geth:
        image: ethereum/client-go:test
-     ports:
-       - "8110:8110"
+       ports:
+         - "8110:8110"
 
 
 Precreated accounts
