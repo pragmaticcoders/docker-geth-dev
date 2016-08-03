@@ -16,8 +16,8 @@ occured on the way.
 
      docker run --name geth -d -p 8110:8110  ethereum/client-go:test
 
-   Please note that the nonstandard port used for RPC server, so be sure to
-   con configure your client accordingly.
+   Please note that the non-standard port is used for RPC server, so be sure to
+   configure your client accordingly.
 
 
 3. Run as part of docker-compose: ::
