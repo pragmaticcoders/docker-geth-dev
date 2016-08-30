@@ -2,6 +2,8 @@ FROM ethereum/client-go
 
 # script that invokes with all those
 # command line options
+ARG TESTNET
+ENV TESTNET $TESTNET
 COPY rungeth_staging.docker /usr/bin/rungeth
 
 # these two files and directory of geth state belong together and must be

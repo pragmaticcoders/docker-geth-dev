@@ -1,2 +1,2 @@
 #!/bin/bash
-/usr/bin/geth --testnet --fast --ipcpath /root/.ethereum/geth.ipc --rpc --rpcapi "eth,web3" --datadir /geth/data --password /geth/geth.password --rpcaddr "0.0.0.0" --rpcport 8110 $@
+/usr/bin/geth ${TESTNET:+--testnet} --fast --cache=128 --ipcpath /root/.ethereum/geth.ipc --rpc --rpcapi "eth,web3" --datadir /geth/data --password /geth/geth.password --rpcaddr "0.0.0.0" --rpcport 8110 $@
