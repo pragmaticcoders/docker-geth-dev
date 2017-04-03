@@ -1,7 +1,6 @@
 #!/bin/bash
-if [ ! -f /tmp/foo.txt  ]; then
+if [ -f /usr/bin/geth ]; then
      /usr/bin/geth --datadir /root/.ethereum --password /root/geth.password --unlock "0" --port 30310 --rpc --rpcaddr "0.0.0.0" -rpcapi "eth,web3" --rpcport 8110 --networkid 4567890 --dev --lightkdf --nodiscover --maxpeers 0 --verbosity 6 --pprof --pprofport 6110 --mine --minerthreads 1 $@ 2> /tmp/geth.log
 else
     ./geth --datadir /root/.ethereum --password /root/geth.password --unlock "0" --port 30310 --rpc --rpcaddr "0.0.0.0" -rpcapi "eth,web3" --rpcport 8110 --networkid 4567890 --dev --lightkdf --nodiscover --maxpeers 0 --verbosity 6 --pprof --pprofport 6110 $@ 2> /tmp/geth.log
 fi
-

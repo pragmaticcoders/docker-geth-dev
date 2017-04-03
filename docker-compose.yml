@@ -1,4 +1,0 @@
-geth:
-  image: ethereum/client-go:test
-  ports:
-    - "8110:8110"

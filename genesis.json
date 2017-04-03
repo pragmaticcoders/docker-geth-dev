@@ -9,16 +9,13 @@
   "gasLimit": "0x2FEFD8",
   "alloc": {
     "de1e758511a7c67e7db93d1c23c1060a21db4615": {
-      "balance": "100000000000000000000"
+      "balance": "1000"
     },
     "27dc8de9e9a1cb673543bd5fce89e83af09e228f": {
       "balance": "1100"
     },
     "d64a66c28a6ae5150af5e7c34696502793b91ae7": {
       "balance": "900"
-    },
-    "2035ef58098b871c69ecf381126bf6ed63215155": {
-      "balance": "3000"
     }
   }
 }
