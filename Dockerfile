@@ -14,10 +14,7 @@ COPY geth.password /root/geth.password
 COPY genesis.json  /root/genesis.json
 COPY ethereum /root/.ethereum
 
-ENTRYPOINT []
 ENTRYPOINT ["/usr/bin/rungeth"]
-
-# RUN ["/usr/bin/rungeth"]
 
 # use non-standard ports so don't accidently connect to real servers
 # XXX Docker inheritance doesn't override, it extends the port      list...
