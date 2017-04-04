@@ -3,7 +3,7 @@ Docker-geth-dev
 ===============
 
 This runs a container with private Ethereum chain with some precreated accounts
-and balances. This is inspired by the [StackOverflow thread](http://ethereum.stackexchange.com/questions/1516/how-can-i-completely-automate-a-docker-image-and-dockerfile-for-a-geth-test-netw) and fixing problems encountered on the way.
+and balances. This is inspired by the `StackOverflow thread <http://ethereum.stackexchange.com/questions/1516/how-can-i-completely-automate-a-docker-image-and-dockerfile-for-a-geth-test-netw>`_ and fixing problems encountered on the way.
 
 1. Build the container: ::
 
